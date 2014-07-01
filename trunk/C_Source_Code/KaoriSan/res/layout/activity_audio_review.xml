@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/common_task_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/txtTitleAudioScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_image_description"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/txt_review"
+            android:textColor="#ed5491"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            layout="@layout/common_cancel_button" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            layout="@layout/common_submit_button" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dark_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:scaleType="fitXY" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@string/logo_image_description"
+                android:src="@drawable/logo_white" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/frame"
+                android:button="@null"
+                android:drawableLeft="@drawable/play_icon"
+
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/play_recording"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Re_Record"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/frame"
+                android:drawableLeft="@drawable/re_recording_icon"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/re_recording"
+                android:textColor="#00cfff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/common_btn_create_request" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:orientation="vertical" >
+	<FrameLayout
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:background="#00FFFFFF"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/base_popup_message"
+	        android:layout_width="match_parent"
+	        android:layout_height="131dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="20dp"
+	        android:background="#000000"
+	        android:gravity="center"
+	        android:paddingTop="20dp"
+	        android:text="no message"
+	        android:textColor="@android:color/white"
+	        android:textSize="20dp" />
+	
+	    <Button
+	        android:id="@+id/btn_x"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/btn_quit"
+	        android:clickable="true"
+	        android:textColor="@android:color/white"
+	        android:textStyle="bold" />
+	    
+		<Button 
+		    android:id="@+id/btn_close"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="@android:color/transparent"
+		    />
+	</FrameLayout>
+</LinearLayout>

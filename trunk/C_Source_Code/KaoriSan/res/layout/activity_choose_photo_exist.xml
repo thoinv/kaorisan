@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    style="@style/common_background"
+    android:orientation="vertical"
+    tools:context=".ChoosePhotoExistActivity" >
+
+    <FrameLayout
+        style="@style/common_task_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/txtTitleAudioScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_image_description"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/txt_attachment"
+            android:textColor="#ed5491"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="5dp"
+            layout="@layout/common_submit_button" />
+        <!--
+		<TextView
+		    android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="8dp"
+            android:text="@string/txt_delete"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            android:textSize="20sp"/>
+          -->
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            layout="@layout/common_cancel_button" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/line"
+        android:contentDescription="@string/line_horizontal_image_description" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:drawableBottom="@drawable/no_attachment"
+                android:drawablePadding="10dp"
+                android:text="@string/no_attachment"
+                android:textColor="#000"
+                android:textSize="15sp" 
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/attachmentWrapLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listAttachment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" 
+                android:cacheColorHint="@android:color/transparent"
+                android:scrollingCache="false">
+                
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btnAttach"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_attachment"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onButtonClick"
+        android:paddingLeft="40dp"
+        android:text="@string/tap_to_attachment"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>

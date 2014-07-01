@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_main">#ec4289</color>
+    <color name="color_grey_color">#cecece</color>
+    <color name="transparent">#00000000</color>
+</resources>

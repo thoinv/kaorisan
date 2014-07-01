@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="#80000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#e9e9e9"
+                android:drawableLeft="@drawable/btn_text_request_black"
+                android:drawablePadding="10dp"
+                android:gravity="center|left"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="@string/btn_create_request_text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rdoTextRequestRadioButtonGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_gravity="left" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rdoNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_gravity="left"
+                    android:button="@null"
+                    android:checked="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/radio_button"
+                    android:drawablePadding="8dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/txt_normal_text_request"
+                    android:textColor="#929292"
+                    android:textColorHint="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rdoUrgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:button="@null"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/radio_button"
+                    android:drawablePadding="8dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/txt_urgent_text_request"
+                    android:textColor="#929292" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:button="@null"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/radio_none"
+                    android:drawablePadding="8dp"
+                    android:lineSpacingExtra="5dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/text_request_pop_up_not"
+                    android:textColor="#c8c8c8"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:background="#ec4289"
+            android:gravity="center"
+            android:text="@string/btn_continue"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

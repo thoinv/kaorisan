@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_background"
+    android:id="@+id/task_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/common_task_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_image_description"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:src="@drawable/logoscreen3" />
+
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/avatar_image_description"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <FrameLayout
+        style="@style/common_task_header_below"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/common_background"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txtNumberOpen"
+                        style="@style/common_task_header_number1"
+                        android:layout_marginLeft="20dp"
+                        android:paddingRight="2dp"
+                        android:text="1"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnOpenTask"
+                    style="@style/common_task_header_text1"
+                    android:layout_width="32dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/open_task" 
+                    android:paddingLeft="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/txtNumberClose"
+                    style="@style/common_task_header_number1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="2dp"
+                    android:text="2"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnCloseTask"
+                    style="@style/common_task_header_text1"
+                    android:layout_width="40dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="fill_vertical|left"
+                    android:paddingLeft="2dp"
+                    android:text="@string/closed_task" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0" >
+
+                <TextView
+                    android:id="@+id/txtAvailableTask"
+                    style="@style/common_task_header_number1"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="2dp"
+                    android:text="3"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnAvailableTask"
+                    android:layout_width="54dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="21dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|left"
+                    android:lines="2"
+                    android:paddingLeft="2dp"
+                    android:text="@string/available_task"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <com.github.jeremiemartinez.refreshlistview.RefreshListView
+            android:id="@+id/listTask"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            >
+        </com.github.jeremiemartinez.refreshlistview.RefreshListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_border"
+            android:contentDescription="@string/line_horizontal_image_description" />
+
+        <TextView
+            android:id="@+id/btnSeeMoreRequest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff7e2"
+            android:clickable="true"
+            android:drawableRight="@drawable/see_more"
+            android:onClick="onButtonClick"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="6dp"
+            android:text="@string/seeMoreRequest"
+            android:textColor="#4f4f4f"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_border"
+            android:contentDescription="@string/line_horizontal_image_description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9edef"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="@string/recommended_task"
+            android:textColor="#4f4f4f"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listRecommendTask"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" 
+                >
+
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_border"
+        android:contentDescription="@string/line_horizontal_image_description" />
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_btn_create_request" />
+
+</LinearLayout>

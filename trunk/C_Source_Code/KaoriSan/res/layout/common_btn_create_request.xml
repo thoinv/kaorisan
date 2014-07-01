@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#f6f5f1" >
+
+    <TextView
+        android:id="@+id/btnCreatAText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/gray_button_text_request"
+        android:gravity="center|bottom"
+        android:onClick="onButtonClick"
+        android:paddingBottom="2dp"
+        android:paddingTop="5dp"
+        android:text="@string/btn_create_request_text"
+        android:textColor="#929292"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/line_dashed_background_image"
+        android:src="@drawable/line_dashed" />
+
+    <TextView
+        android:id="@+id/btnCreatAVoice"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/gray_button_voice_request"
+        android:gravity="center|bottom"
+        android:onClick="onButtonClick"
+        android:paddingBottom="2dp"
+        android:paddingTop="5dp"
+        android:text="@string/btn_create_voice_request"
+        android:textColor="#929292"
+        android:textSize="12sp" />
+
+</LinearLayout>

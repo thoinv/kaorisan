@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kaori-san</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_btn_login_facebook">Login With Facebook</string>
+    <string name="logout_btn_login_facebook">Logout Facebook</string>
+    <string name="login_btn_login_google">Login With Google</string>
+    <string name="applicationId">237471026413628</string>
+    <string name="open_task">Open\nTask</string>
+    <string name="closed_task">Closed\nTask</string>
+    <string name="available_task">Available Task</string>
+    <string name="greeting_status">Welcome, %s.</string>
+    <string name="greeting_status_sign_in_required">Sign-in required</string>
+    <string name="greeting_status_error">Error signing in: %s.</string>
+    <string name="loading_status">Loading…</string>
+    <string name="google_client_id">127287156715&#8211;6mt3jfpe9iu2ailg81sh134g1kjdkugl.apps.googleusercontent.com</string>
+    <string name="google_redirect_uri">urn:ietf:wg:oauth:2.0:oob</string>
+    <string name="google_client_secret">SrxYZrurlabHjcAW2p7iVStF</string>
+    <string name="google_auth_code">4/eT0c8p63&#8211;4av5QCNFjYgW_oIE7yK.kuj2zq8GDpsVXE-sT2ZLcbRRDTVdgQI</string>
+    <string name="signing_in_status">Signing in with Google+.</string>
+    <string name="signed_in_status">Signed in.</string>
+    <string name="signed_out_status">Signed out.</string>
+    <string name="plus_write_moment_status">Saving moment</string>
+    <string name="plus_remove_moment_status">Removing moment</string>
+    <string name="plus_one_small_name">Small +1 button</string>
+    <string name="plus_one_medium_name">Medium +1 button</string>
+    <string name="plus_one_tall_name">Tall +1 button</string>
+    <string name="plus_one_standard_name">Standard +1 button</string>
+    <string name="plus_one_standard_ann_name">Standard +1 button (with inline annotation)</string>
+    <string name="plus_example_deep_link_id">/+/mobile/android/</string>
+    <string name="plus_example_deep_link_url">https://developers.google.com/+/mobile/android/</string>
+    <string name="plus_generic_error">Sign in with Google is not available.</string>
+    <string name="progress_message">Signing in to Google&#8230;</string>
+    <string name="app_id">701590745792-clqentfla4285dtoovdmc9mck2v2taom.apps.googleusercontent.com</string>
+    <string name="new_message">New Message</string>
+    <string name="logo_image_description">KariSan Logo</string>
+    <string name="line_horizontal_image_description">Line</string>
+    <string name="avatar_image_description">User avatar</string>
+    <string name="tick_image_description">Tick</string>
+    <string name="request">Request</string>
+    <string name="txt_review">Review</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_title_audio_screen_playrecord">We\'re listening</string>
+    <string name="back">Back</string>
+    <string name="title_activity_account_dashboard">AccountDashboardActivity</string>
+    <string name="txt_my_account">My Account</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_log_out">Log Out</string>
+    <string name="txt_are_you_sure">Are you sure?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_premier_plan">N/A</string>
+    <string name="txt_monthly_subcription">MONTHLY SUBCRIPTION</string>
+    <string name="txt_term_and_condition">Terms &amp; Conditions</string>
+    <string name="txt_email_support">Email support</string>
+    <string name="get_data_failed_msg">Get data failed! Please login again!</string>
+    <string name="txt_rate_us">Rate us</string>
+    <string name="txt_common_requests">Common requests</string>
+    <string name="txt_n_a">N/A</string>
+    <string name="txt_renewal_date">RENEWAL DATE</string>
+    <string name="txt_requests_used">REQUESTS USED</string>
+    <string name="seeMoreRequest">See more requests</string>
+    <string name="btn_create_request_text">Create a text request</string>
+    <string name="txt_normal_text_request">Normal text request</string>
+    <string name="title_activity_request_view">RequestViewActivity</string>
+    <string name="txt_reply">Reply</string>
+    <string name="txt_task">Task</string>
+    <string name="btn_continue">Continue</string>
+    <string name="txt_urgent_text_request">Urgent text request</string>
+    <string name="text_request_pop_up_not">Uses 2 requests or 500 yen.</string>
+    <string name="txt_attachment">Attachments</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_take_photo">Take a Photo</string>
+    <string name="background_choose_photo_button">choose photo button background</string>
+    <string name="btn_choose_photo_exist">Choose Existing</string>
+    <string name="background_take_photo_button">take photo button background</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="txt_new_request">New Request</string>
+    <string name="txt_title">Title</string>
+    <string name="task_title" formatted="false">Task</string>
+    <string name="water_mark_question_of_new_request_editor">What can we do for you?</string>
+    <string name="btn_back">Back</string>
+    <string name="splash_image_description">splash image description</string>
+    <string name="complete">COMPLETE</string>
+    <string name="time_last_state">10 mins ago&#8230;</string>
+    <string name="title_task_item">this is a avtivity task. this is a avtivity task</string>
+    <string name="number_replies_of_task">12</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="btn_reply">Reply</string>
+    <string name="title_activity_choose_photo_exist">ChoosePhotoExistActivity</string>
+    <string name="title_activity_new_request">NewRequestActivity</string>
+    <string name="initial_request">Initial Request</string>
+    <string name="photo_name_sample">Photo.jpg</string>
+    <string name="_1">1</string>
+    <string name="tap_to_attachment">Tap to add Attachments</string>
+    <string name="title_activity_common__request_">Common_Request_Activity</string>
+    <string name="title_activity_common_request">CommonRequestActivity</string>
+    <string name="settings">Settings</string>
+    <string name="common_requests">Common Requests</string>
+    <string name="general">General</string>
+    <string name="title_activity_rate">RateActivity</string>
+    <string name="rate_question">How did we do?</string>
+    <string name="btn_like_image_description">Like button</string>
+    <string name="btn_dislike_image_description">Dislike button</string>
+    <string name="play_recording">Play recording</string>
+    <string name="re_recording">Re-recording</string>
+    <string name="recording">Recording</string>
+    <string name="we_listening">We\'re listening&#8230;</string>
+    <string name="btn_create_voice_request">Create a voice request</string>
+    <string name="line_dashed_background_image">border line dashed</string>
+    <string name="sample_request_use">0 of 0</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="research">Research</string>
+    <string name="weddings">Weddings</string>
+    <string name="travel">Travel</string>
+    <string name="kids">Kids</string>
+    <string name="at_home">At Home</string>
+    <string name="at_work">At Work</string>
+    <string name="title_activity_send_email">SendEmailActivity</string>
+    <string name="txt_send_email">Send Email</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_btn_chart">Pie Chart</string>
+    <string name="local_gallery">Local Gallery</string>
+    <string name="login_note">* Only for existing users</string>
+    <string name="recommended_task">RECOMMENDED TASK LIST</string>
+    <string name="task_sample_1">Want to arrange car driver Want to arrange car driver</string>
+    <string name="txt_open_task"><![CDATA[some test line 1 <br />some test line 2]]></string>
+    <string name="title_activity_terms_and_conditions">TermsAndConditionsActivity</string>
+    <string name="term_and_condition">Terms &amp; Conditions</string>
+    <string name="btn_send">Send</string>
+    <string name="to">To:</string>
+    <string name="cc">Cc/Bb</string>
+    <string name="subject">Subject:</string>
+    <string name="take_photo_image_description">Take photo image</string>
+    <string name="title_activity_audio_recording">AudioRecordingActivity</string>
+    <string name="stop">Stop</string>
+    <string name="stop_voice_recording">Stop Voice Recording</string>
+    <string name="play">Play</string>
+    <string name="email_support">support@kaorisan.com</string>
+    <string name="email_title"></string>
+    <string name="request_success_message">Please see attachment for request instructions</string>
+    <string name="add_button">add button</string>
+    <string name="image_audio_attach">audio attach</string>
+    <string name="photo_attach">photo attach</string>
+    <string name="refreshlistview_updating">Updating…</string>
+    <string name="refreshlistview_release">Release to refresh…</string>
+    <string name="refreshlistview_pulldown">Pull down to refresh…</string>
+    <string name="title_activity_image_preview">ImagePreviewActivity</string>
+    <string name="preview">Preview</string>
+    <string name="retake">Retake</string>
+    <string name="use">Use</string>
+    <string name="please_waiting_msg">Please wait&#8230;</string>
+    <string name="image_preview_description">image preview</string>
+    <string name="add_attach_type">Add an attachment</string>
+    <string name="no_attachment">No Attachments</string>
+    <string name="btn_see_more_request">See more requests</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">ago</string>
+    <string name="time_ago_seconds">just now</string>
+    <string name="time_ago_minute">%d minute</string>
+    <string name="time_ago_minutes">%d minutes</string>
+    <string name="time_ago_hours">%d hours</string>
+    <string name="time_ago_day">%d day</string>
+    <string name="time_ago_days">%d days</string>
+    <string name="time_ago_months">%d months</string>
+    <string name="time_ago_years">%d years</string>
+    <string name="ini_request">Initial request</string>
+    <string name="title_activity_play_audio">PlayAudioActivity</string>
+    <string name="listen_voice_request">Listen voice request</string>
+    <string name="title_activity_rate_app">RateAppActivity</string>
+    <string name="request_use_text_format" formatted="false">%s of %s</string>
+    <string name="network_error_message">Network is unreachable</string>
+    <string name="need_external_storage_msg">Need external storage</string>
+    <string name="saving_msg">Saving&#8230;</string>
+    <string name="cant_create_task_msg">You can not add task any more</string>
+    <string name="creating_new_task">Creating new task&#8230;</string>
+    <string name="creating_new_reply">Creating new reply&#8230;</string>
+    <string name="create_request_failed_msg">Create request failed!</string>
+    <string name="upload_photo_message" formatted="false">Total: %d/%d, Success: %d, Fail: %d</string>
+    <string name="uploading_files_msg" formatted="false">Uploading %d files</string>
+    <string name="create_new_request_failed">Failed to submit request, please try again.</string>
+    <string name="content_required_msg">Content is required!</string>
+    <string name="not_connect_internet_msg">Not connect internet</string>
+    <string name="cant_find_account_msg">We couldn\'t find an account for you.</string>
+    <string name="txt_logout">Logout&#8230;</string>
+    <string name="haved_rate_msg">You have rated</string>
+    <string name="rate_failed">Rate Fail</string>
+    <string name="rate_successfully">Rate success</string>
+    <string name="task_had_rated">You rated for this task</string>
+    <string name="task_unassign_msg">Task is unassigned</string>
+    <string name="label_confirm_delete_attachment">Are you sure delete?</string>
+    <string name="txt_delete">Delete</string>
+    <string-array name="general_array">
+        <item>Call Allen Car Service and have them pick me up at home tomorrow at 7am in an SUV and take me to Laguardia. We\'ll need a car seat for an infant. There will be 3 of us, and 4 bags. </item>
+        <item>Can you call around and find a place close to zip 10009 that has the new iPad in stock? I need one by this weekend!</item>
+        <item>Can you call the post office and find my package? Here\'s the tracking number. When I look it up online, it says there\'s a delivery problem. Please see if you can have it located and re-delivered.</item>
+        <item>Find me a a few different dog walker options in SE Portland. I\'m looking to have my two dachshunds walked 3 times a week. What are their prices and schedule flexibilities?</item>
+        <item>Can you email my friend Amanda and tell her that we can go on that tour any Saturday at 3pm, and ask her what Saturday works best for her? Then book the tour for the two of us and add it to my calendar. </item>
+        <item>I need to find five boxes of Andrea #45 hair color. They sell them at Ricky\'s. Can you find a close one to my house that has them in stock and see if they\'ll hold them for me to pick up tomorrow?</item>
+        <item>Can you call Time Warner cable and cancel Showtime for me? Here\'s my account number, but if you need to patch me in to verify my security details, please call me at home.</item>
+        <item>I\'m looking for Mirror Pond Beer, but they don\'t sell it here in NYC. Can you find a place that will ship it, and have a case sent to my office?</item>
+        <item>Set up a meeting with my accountant (cc\'ed here). If she\'s paying, let\'s go to Balthazar, otherwise, let\'s do it at our office.</item>
+        <item>Amazon has a Fujitsu Scan Snap for $418, can you find it for cheaper anywhere, either online or close to my house?</item>
+        <item>Call TD Bank and ask how many checks I can use for free on a standard personal account (I don\'t want any more fees!) If you need to patch me in for my account details, please call me on my cell.</item>
+        <item>Schedule a haircut with Julia at Lovemore and Do for me on Sunday anytime between 6 and 10pm.</item>
+        <item>Please call the repair center at Fry\'s Electronics (in Wilsonville) and find out if my laptop is ready. What hours are they open for me to pick up?</item>
+        <item>I\'m helping to plan a bachelor party. Can you send me some ideas and prices for things to do in San Francisco with 8 adult men?</item>
+    </string-array>
+    <string-array name="restaural_array">
+        <item>I\'m heading to New York next week, can you send me information on five reasonably priced, nice, well-reviewed places in East Village to eat?</item>
+        <item>Please call for a reservation at Hundred Acres next Thursday around 8pm. There will be 8 of us now.</item>
+        <item>Call Katz\'s Deli in NYC and ask them what ingredients they put in their Reuben.</item>
+        <item>Please call and update my reservation at Hundred Acres. There will be 8 of us now.</item>
+        <item>Can you call and see if I left my credit card at Bar None, Otto\'s Shrunken Head, or Vazacs Horeshoe Bar (long story, don\'t ask)?</item>
+        <item>Can you find me 5 non-divey bars in downtown Manhattan that serve picklebacks?</item>
+        <item>Can you send me a breakdown of all of the different restaurants in Eataly? What different types of food do they serve, do they take reservations, and what are their hours of operation?</item>
+        <item>What are 3 well-reviewed, romantic date spots on the Upper West Side that have availabilities for 2 people this Thursday at 9pm?</item>
+        <item>What are some of the new "foodie" restaurants in Portland? I have a friend coming in from out of town on Dec 3 and I want to impress him.</item>
+        <item>Can you send me a list of the best places to get cold-pressed juices in the city, and the price lists? It seems some are about $8 a bottle and some are $11, I\'m looking for the best and the cheapest.</item>
+    </string-array>
+    <string-array name="research_array">
+        <item>Can you call 3 hardware stores in my neighborhood to find how how much they charge to copy elevator keys, and what are their operating hours?</item>
+        <item>Can you order a couple of the highest rated books about screenwriting on Amazon and have them sent to my house?</item>
+        <item>Can you find 5 banks within 5 miles from my homes that have large safe deposit boxes, and send me the monthly prices for rental? Also, do they offer month-to-month or only yearly contracts?</item>
+        <item>Please fill me in on the top 5 trending topics on Twitter today, both worldwide and locally in Los Angeles.</item>
+        <item>What are the trendiest hairstyles for women right now? Please send me examples from fashion sites as well as hot celebrity looks.</item>
+        <item>I want to send my parents on a double decker bus tour when they\'re visiting me next weekend. What are the top two companies for this, where can they get tickets, how much will they cost, where does the tour go, and how long is it?</item>
+        <item>Who are the most successful bloggers these days? Please send me the most famous 10 blogs, with the highest traffic and highest advertising revenue.</item>
+        <item>I want to buy a new camera. It shouldn\'t be one of those tiny ones but also not giant. Can you send me research on the best 5 mid-range, mid-knowledge digital cameras? I\'m not a beginner but I\'m not a professional either.</item>
+        <item>I need to get my bike fixed, the wheel is making funny noises. What\'s the best bike repair shop within walking distance of my office?</item>
+    </string-array>
+    <string-array name="weddings_array">
+        <item>Where are are the ten best places to get married in San Francisco? How far out are they booked, and how much are they?</item>
+        <item>I need to reserve a block of rooms in a hotel for our wedding on Aug 30. Can you call the higher-end hotels in Beaumont and see what the group rates would be for around 30 rooms for that whole weekend?</item>
+        <item>Can you find 3 awesome cover bands who would be able to play at our wedding on June 2? We like late nineties hits. Need the prices for booking as well, and can we go hear them play anywhere, or do they have videos they can send us?</item>
+        <item>I want someone to paint our welcome signs, table chart, and wedding menu on some antique windows and mirrors that I have. Can you find a calligrapher that would do this sort of thing, and ask them how much it would be?</item>
+        <item>Can you please call my caterer and confirm that she will meet my mother the morning of my wedding, Oct 6, at 10am at the Carney Club to be let in to begin prepping for the reception? Also please get the final menu emailed to me.</item>
+        <item>I\'m in Bermuda for my honeymoon. How much will it cost me if I used my AT&amp;T iPhone to call the USA? (I don\'t have an international plan).</item>
+        <item>Make an appointment with our photographer to go over the proofs from our wedding.</item>
+        <item>Can you find the top 3 reviewed salons in my town that I could book for a bridal party? We\'d need appointments for 6 people all at once and we want it to feel like a party - manicures, pedicures, facials, and haircuts. What are the prices and can we bring food and liquor with us?</item>
+        <item>I\'m looking for a wedding dress that looks like this one (attached) but isn\'t $18,000 like this one is. Can you find a handful of options that I could try on locally?</item>
+        <item>Where\'s the best place to buy a men\'s wedding band? What are the trends in wedding bands for men these days? Can you find articles and pictures for me?</item>
+    </string-array>
+    <string-array name="travel_array">
+        <item>I need to fly from NYC - Charlotte on July 8 in the morning and return on July 11 in the evening. Please send me the best prices for direct flights, from any of the 3 NYC airports.</item>
+        <item>Find me 5 hotels in uptown or midtown New York for next week (Monday - Friday) that have good reviews, a gym, and are less than $250/night.</item>
+        <item>I need a copy center within walking distance of my hotel in St Louis that is open tonight.</item>
+        <item>Call to confirm my hotel reservation at The Ace Hotel in Portland for tomorrow, and ask them to make it a king sized bed, no smoking, away from elevator, on a high floor if possible.</item>
+        <item>Can you call and find out how much it would cost to upgrade my flight, both with money and with miles?</item>
+        <item>I\'m hiking down the Grand Canyon. What do I need to know and what do I need to take with me?</item>
+        <item>I need to find a nice hotel in Austin that will let me bring my 40 pound dog. Is there an extra fee?</item>
+        <item>My luggage is lost. Here\'s the ticket number from the bag and here\'s my flight info. Can you figure out where it is and how soon I can get it back? It should be delivered to my house, there\'s a doorman 24 hours a day.</item>
+        <item>I want to stay somewhere fun in Ohai next month. I have heard about a tree house there. Can you send me some creative ideas from Airbnb.com?</item>
+        <item>Can you send me a list of the restaurants in the Atlanta airport United terminal?</item>
+        <item>I\'d like to get rental car quotes from 3 different companies at LAX. I\'d be picking up next Saturday morning and keeping the car for 4 days. I\'d like a convertible but also might take an SUV. Please find out the prices and brands for both options.</item>
+    </string-array>
+    <string-array name="kids_array">
+        <item>Can you send me 10 ideas for things to do in the next 2 weeks with my 9 year old niece? She\'s coming to stay with me and I really want to show her a variety of fun, interesting things - museums, concerts, chocolate/candy shops, kid restaurants, etc. I don\'t know much about this stuff, I don\'t have any kids!</item>
+        <item>My 4 year old son wants a Yo Gabba Gabba birthday party. Can you send me links to party products, accessories, favors, etc. Also, are there impersonators that make appearances that I could hire? And what kind of Yo Gabba Gabba cakes are there?</item>
+        <item>What is the best nanny placement company in town? How much do they charge? Do they have British nannies? Do they have baby nurses or just regular nannies? What are their requirements for their nannies? Are they trained in CPR?</item>
+        <item>Can you book an appointment for my daughter Kaylie to get her teeth cleaned with her dentist, Dr. Alper, any weekday day after school (3:30pm) in March?</item>
+        <item>I need to start looking into daycares for my 3 year old to enter into next year. Can you do some research on the best ones in my town, the closer to my house, the better, and find out what the process to interview with them is?</item>
+        <item>My stepdaughter is 12 years old. She\'s very into creative things and she always seems to know about the latest and trendiest things. Can you send me several great gift ideas for her birthday? Really cutting edge stuff, she is not a Bieber-type, she\'s more of a Tavi-type.</item>
+        <item>We\'re going to Park City, Utah for Christmas. Can you find some fun things to do for kids there, and also find a couple of reputable babysitters?</item>
+    </string-array>
+</resources>

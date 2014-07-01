@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".SendEmailActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f6f5f1"
+        android:orientation="horizontal" >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            layout="@layout/common_cancel_button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:text="@string/new_message"
+            android:textColor="#ec4289"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:text="@string/btn_send"
+            android:textSize="20sp" 
+            android:onClick="onButtonClick"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txtTo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/to"
+            android:inputType="textCapSentences|textAutoCorrect|textEmailAddress"
+            android:paddingLeft="10dp"
+            android:text="@string/email_support" />
+
+        <EditText
+            android:id="@+id/txtCc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cc"
+            android:inputType="textCapSentences|textAutoCorrect|textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/subject"
+            android:inputType="textCapSentences|textAutoCorrect|textEmailSubject" />
+
+        <EditText
+            android:id="@+id/txtEmailContent"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textCapSentences|textAutoCorrect|textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

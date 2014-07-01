@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f6f5f1"
+        android:orientation="horizontal" >
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            layout="@layout/common_cancel_button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:text="@string/txt_new_request"
+            android:textColor="#ec4289"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            layout="@layout/common_submit_button" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/line_horizontal_image_description"
+        android:src="@drawable/line" />
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/txt_title"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:lines="1"
+        android:nextFocusDown="@+id/edtContent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edtContent"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+         
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/water_mark_question_of_new_request_editor" />
+
+        <ImageView
+            android:id="@+id/btnAttach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:contentDescription="@string/photo_attach"
+            android:onClick="onButtonClick"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:src="@drawable/attach_gray" />
+    </RelativeLayout>
+
+</LinearLayout>

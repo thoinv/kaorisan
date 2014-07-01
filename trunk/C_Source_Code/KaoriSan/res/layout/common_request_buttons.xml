@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f6f5f1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/imgAttachmentForScreenRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:background="@android:color/transparent"
+                android:onClick="onButtonClick"
+                android:src="@drawable/attach" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/line_dashed" 
+                android:id="@+id/line_border_right"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnRepLyForRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.4"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onButtonClick"
+            android:text="@string/btn_reply"
+            android:textColor="#929292"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:contentDescription="@string/line_horizontal_image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/line_dashed" 
+            android:id="@+id/line_border_right_2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:gravity="center" >
+            
+            <ImageView
+                
+                android:id="@+id/btnRate"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:color/transparent"
+                android:onClick="onButtonClick"
+                android:src="@drawable/star" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

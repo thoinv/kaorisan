@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tổng hợp khuyến mãi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_distributors">Distributors</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_fullscreen">Fullscreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="icon_decription">Icon decription</string>
+    <string name="catalog">Danh mục</string>
+    <string name="distributor_title">Cửa hàng</string>
+    <string name="detail_title">Khuyến mại</string>
+    <string name="base_title_name">Title</string>
+
+</resources>

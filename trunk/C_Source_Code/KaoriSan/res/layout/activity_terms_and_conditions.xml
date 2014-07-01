@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="#ffffff"
+    tools:context=".TermsAndConditionsActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" 
+        android:background="#ffffff">
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            layout="@layout/common_setting_button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/term_and_condition"
+            android:textColor="#ec4289"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:contentDescription="@string/line_horizontal_image_description" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+<!--         <TextView -->
+<!--             android:id="@+id/TextView01" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginBottom="10dp" -->
+<!--             android:layout_marginLeft="10dp" -->
+<!--             android:layout_marginRight="10dp" -->
+<!--             android:layout_marginTop="10dp" -->
+<!--             android:autoLink="web" -->
+<!--             android:clickable="true" -->
+<!--             android:linksClickable="true" -->
+<!--             android:text="@string/term1" -->
+<!--             android:textColor="#000" -->
+<!--             android:textSize="18sp" /> -->
+
+        <WebView
+            android:id="@+id/con_term"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
